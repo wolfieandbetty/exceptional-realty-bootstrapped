@@ -1,0 +1,13 @@
+/* Adding some CSS styling to the images (and other elements) so that they fill the space.
+This will over-ride the bootstrap.css code */
+
+img, video, audio, iframe, table, form {
+  width: 100%; /* IE */
+  max-width: 100%; /* FF,Safari,Chrome */
+}
+
+/*Layout styles*/
+
+.row {
+  margin-bottom: 20px;
+}
